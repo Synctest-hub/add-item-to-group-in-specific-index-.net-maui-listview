@@ -1,7 +1,7 @@
 # add-item-to-group-in-specific-index-.net-maui-listview
 How to add an item at a specific index in grouped .NET MAUI ListView (SfListView) ?
 
-In [.NET MAUI ListView (SfListView)](https://www.syncfusion.com/maui-controls/maui-listview), you can add an item at a specific index in a specific group by using the `KeySelector` property and the Key value of each group. Since, each group is identified by its `Key,`which holds the underlying data related to the group. When a new item is added at runtime, you need to find which group the item belongs to by using `PropertyInfoCollection`, `PropertyName` and `KeySelector`and after getting the desired group’s `GroupResult` value, insert the particular item into a specified index.
+In [.NET MAUI ListView (SfListView)](https://www.syncfusion.com/maui-controls/maui-listview), you can add an item at a specific index in a specific group by using the `KeySelector` property and the Key value of each group. Since, each group is identified by its `Key`,which holds the underlying data related to the group. When a new item is added at runtime, you need to find which group the item belongs to by using `PropertyInfoCollection`, `PropertyName` and `KeySelector`and after getting the desired group’s `GroupResult` value, insert the particular item into a specified index.
 C#
 To add new data to the underlying collection in the ViewModel class,
 ```c#
